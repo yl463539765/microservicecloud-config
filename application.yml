@@ -1,15 +1,19 @@
-﻿spring:
-  profiles:
-    active: 
-    - dev
+spring:
+    profiles:
+        active:
+        - dev
+
 ---
 spring:
-  profiles: dev       #开发环境
-  application:
-    name:  microservicecloud-config-eking-dev
+    profiles: dev #开发环境
+    application:
+        name: microservicecloud-config-my-dev
+        
 ---
 spring:
-  profiles: test       #测试环境
-  application:
-    name:  microservicecloud-config-eking-test
-#请保存为UTF-8格式保存
+    profiles: test #测试环境
+    application:
+        name: microservicecloud-config-my-test
+        
+        
+#UTF8格式保存
